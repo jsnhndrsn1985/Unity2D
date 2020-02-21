@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2ae9362c40b13f4ab9b968c88080ad2, type: 3}
+  m_Name: StartingState
+  m_EditorClassIdentifier: 
+  storyText: 'You have have been wandering for hours searching for your next victim.
+    It has been over a week from your last kill and the urge is driving you absolutely
+    insane. All of a sudden you hear noise off in the distance. As you get closer
+    you realize the noise is two young men talking on a near by porch. The closer
+    you get you realize this is a college party and the house is fill with students.
+    Both men on the porch appear to be unaware of your presence as you approach closer.
+
+
+    What
+    will you do?
+
+    1. Move closer to the porch.
+
+    2. Ignore them and move around
+    back.'
+  nextStates:
+  - {fileID: 11400000, guid: fbe52998b22d00848a217713e4337506, type: 2}
+  - {fileID: 11400000, guid: 5d808af908740d448ad368e4e9ea3fd3, type: 2}
